@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
 import { useWindowScroll } from "react-use";
 
-import { LINKS, NAV_ITEMS } from "@/constants";
+import { NAV_ITEMS } from "@/constants";
 import { cn } from "@/lib/utils";
 
 
