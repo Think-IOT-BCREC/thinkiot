@@ -26,7 +26,7 @@ export const Hero = () => {
   };
 
   //const getVideoSrc = (i: number) => `/videos/hero-${i}.mp4`;
-  const getVideoSrc = (i: number) => `/videos/intro.mov`;
+  const getVideoSrc = (_i: number) => `/videos/intro.mov`;
 
   const handleVideoLoad = () => {
     setLoadedVideos((prevVideos) => prevVideos + 1);
